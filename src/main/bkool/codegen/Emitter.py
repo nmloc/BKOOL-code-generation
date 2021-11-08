@@ -5,6 +5,8 @@ import CodeGenerator as cgen
 from MachineCode import JasminCode
 from AST import *
 
+##### lib tui tu them vao #####
+from main.bkool.utils.AST import * 
 
 
 class Emitter():

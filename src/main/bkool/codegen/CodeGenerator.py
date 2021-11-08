@@ -5,6 +5,10 @@ from abc import ABC
 from Visitor import * 
 from AST import *
 
+##### lib tui tu them vao #####
+from main.bkool.utils.Visitor import * 
+from main.bkool.utils.AST import * 
+
 class MType:
     def __init__(self,partype,rettype):
         self.partype = partype
